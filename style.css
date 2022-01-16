@@ -1,0 +1,163 @@
+/*CONFIGURAÇÕES GERAIS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F0F1F2;
+}
+
+/*ELEMENTOS PAI*/
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 10% auto;
+}
+
+.header {
+    display: inline-block;
+    justify-content: center;
+}
+
+.form {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 360px;
+    width: 396px;
+    align-items: column;
+    text-align: center;
+    box-shadow: 0 5px 5px 5px rgb(0 0 0 / 5%);
+} 
+
+#footer {
+    background-color: #fff;
+    height: 20%;
+    width: 100vw;
+    position: absolute;
+    bottom: 0%;
+    vertical-align: middle;
+}
+
+/*ELEMENTOS FILHO*/
+.logo {
+    cursor: pointer;
+    height: 70px;
+    width: 330px;
+    position: relative;
+    top: 15%;
+    right: 10%;
+}
+
+.slogan {
+    display: block;
+    font-size: 1.8em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    position: relative;
+    top: 10%;
+    right: 2%;
+}
+
+/*LOGIN*/
+.form input[type="text"] {
+    height: 50px;
+    width: 350px;
+    margin: 5% 0 0 0;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-family: Helvetica;
+    font-size: 17px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.form input[type="password"] {
+    height: 50px;
+    width: 350px;
+    margin: 5% 0 0 0;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-family: Helvetica;
+    font-size: 17px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.form button {
+    height: 50px;
+    width: 360px;
+    margin: 5% 0 0 0;
+    background: #1877F2;
+    border-radius: 5px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.login button:hover{
+    background-color: #006aff;
+}
+
+.pass {
+    margin: 5% 5% 0 5%;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #1877f2;
+    cursor: pointer;
+    border-bottom: 1px solid #dddfe2;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.pass:hover {
+    text-decoration: underline;
+}
+
+#button-two {
+    width: 170px;
+    height: 45px;
+    margin: 5% 0 0 0;
+    background: #42B72A;
+    border-radius: 5px;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+#button-two:hover{
+    background-color: #3aa529;
+}
+
+.form p {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 50px 0 0 0;
+    height: 85px;
+    width: 100px;
+    white-space: nowrap;
+}
+
+.form b {
+    cursor: pointer;
+}
+
+.form b:hover {
+    text-decoration: underline;
+}
