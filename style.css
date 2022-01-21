@@ -33,13 +33,17 @@ body {
     box-shadow: 0 5px 5px 5px rgb(0 0 0 / 5%);
 } 
 
-#footer {
+#container-footer {
+    display: inline-block;
     background-color: #fff;
+    color: #8a8d91;
     height: 20%;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     bottom: 0%;
+    padding: 20px 70px;
     vertical-align: middle;
+    border: 1px solid rgb(0 0 0 0);
 }
 
 /*ELEMENTOS FILHO*/
@@ -66,7 +70,7 @@ body {
 }
 
 /*LOGIN*/
-.form input[type="text"] {
+#text {
     height: 50px;
     width: 350px;
     margin: 5% 0 0 0;
@@ -79,7 +83,7 @@ body {
     padding-left: 10px;
 }
 
-.form input[type="password"] {
+#password{
     height: 50px;
     width: 350px;
     margin: 5% 0 0 0;
@@ -92,7 +96,7 @@ body {
     padding-left: 10px;
 }
 
-.form button {
+.login {
     height: 50px;
     width: 360px;
     margin: 5% 0 0 0;
@@ -107,7 +111,7 @@ body {
     text-align: center;
 }
 
-.login button:hover{
+.login:hover{
     background-color: #006aff;
 }
 
@@ -126,7 +130,7 @@ body {
     text-decoration: underline;
 }
 
-#button-two {
+.button-two {
     width: 170px;
     height: 45px;
     margin: 5% 0 0 0;
@@ -141,7 +145,7 @@ body {
     text-align: center;
 }
 
-#button-two:hover{
+.button-two:hover {
     background-color: #3aa529;
 }
 
@@ -154,10 +158,75 @@ body {
     white-space: nowrap;
 }
 
-.form b {
+.form strong {
     cursor: pointer;
 }
 
-.form b:hover {
+.form strong:hover {
     text-decoration: underline;
+}
+
+/*FOOTER*/
+.footer-one {
+    color: #8a8d91;
+    word-spacing: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #8a8d91;
+    border: 1px solid rgb(0 0 0 0);
+}
+
+.footer-one a {
+    color: #8a8d91;
+    word-spacing: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid rgb(0 0 0 0);
+}
+
+.footer-one a:hover {
+    text-decoration: underline;
+}
+
+.footer-two a {
+    color: #8a8d91;
+    word-spacing: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid rgb(0 0 0 0);
+}
+
+.footer-two a:hover {
+    text-decoration: underline;
+}
+
+.footer-three a {
+    color: #8a8d91;
+    word-spacing: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid rgb(0 0 0 0);
+}
+
+.footer-three a:hover {
+    text-decoration: underline;
+}
+
+.footer-four a {
+    color: #8a8d91;
+    word-spacing: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid rgb(0 0 0 0);
+}
+
+.footer-four a:hover {
+    text-decoration: underline;
+}
+
+.span {
+    display: grid;
+    justify-content: space-between;
+    margin-top: 5px;
+    border: 1px solid rgb(0 0 0 0);
 }
