@@ -41,9 +41,9 @@ body {
     width: 100vw;
     position: fixed;
     bottom: 0%;
-    padding: 20px 70px;
     vertical-align: middle;
     border: 1px solid rgb(0 0 0 0);
+    padding: 20px 200px;
 }
 
 /*ELEMENTOS FILHO*/
@@ -170,54 +170,69 @@ body {
 .footer-one {
     color: #8a8d91;
     word-spacing: 10px;
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
-    border-bottom: 1px solid #8a8d91;
-    border: 1px solid rgb(0 0 0 0);
+    border-bottom: 1px solid #dddfe2;
 }
 
 .footer-one a {
+    display: inline-block;
     color: #8a8d91;
-    word-spacing: 10px;
-    font-size: 15px;
+    word-spacing: 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
     text-decoration: none;
-    border: 1px solid rgb(0 0 0 0);
 }
 
 .footer-one a:hover {
     text-decoration: underline;
 }
 
+.footer-two {
+    word-spacing: 10px;
+}
+
 .footer-two a {
+    display: inline-block;
     color: #8a8d91;
-    word-spacing: 8px;
-    font-size: 15px;
+    word-spacing: 1px;
+    font-size: 12px;
+    margin-top: 10px;
     text-decoration: none;
-    border: 1px solid rgb(0 0 0 0);
 }
 
 .footer-two a:hover {
     text-decoration: underline;
 }
 
+.footer-three {
+    word-spacing: 10px;
+}
+
 .footer-three a {
+    display: inline-block;
     color: #8a8d91;
-    word-spacing: 8px;
-    font-size: 15px;
+    word-spacing: 1px;
+    font-size: 12px;
+    margin-top: 10px;
     text-decoration: none;
-    border: 1px solid rgb(0 0 0 0);
 }
 
 .footer-three a:hover {
     text-decoration: underline;
 }
 
+.footer-four {
+    word-spacing: 10px;
+}
+
 .footer-four a {
+    display: inline-block;
     color: #8a8d91;
-    word-spacing: 8px;
-    font-size: 15px;
+    word-spacing: 1px;
+    font-size: 12px;
+    margin-top: 10px;
     text-decoration: none;
-    border: 1px solid rgb(0 0 0 0);
 }
 
 .footer-four a:hover {
@@ -227,6 +242,42 @@ body {
 .span {
     display: grid;
     justify-content: space-between;
-    margin-top: 5px;
-    border: 1px solid rgb(0 0 0 0);
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*ELEMENTOS PAI*/
+    .container {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .logo {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 70px;
+        width: 330px;
+        margin: 0 50px auto;
+    }
+
+    .form {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 50px auto;
+
+    }
 }
