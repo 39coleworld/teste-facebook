@@ -11,7 +11,7 @@ body {
 }
 
 /*ELEMENTOS PAI*/
-.container {
+.container-header {
     display: flex;
     justify-content: space-around;
     margin: 10% 10% auto;
@@ -169,7 +169,7 @@ body {
 /*FOOTER*/
 .footer-one {
     color: #8a8d91;
-    word-spacing: 10px;
+    word-spacing: 12px;
     font-size: 12px;
     text-decoration: none;
     border-bottom: 1px solid #dddfe2;
@@ -189,53 +189,19 @@ body {
 }
 
 .footer-two {
-    word-spacing: 10px;
+    word-spacing: 12px;
 }
 
-.footer-two a {
+#link {
     display: inline-block;
     color: #8a8d91;
     word-spacing: 1px;
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 5px;
     text-decoration: none;
 }
 
-.footer-two a:hover {
-    text-decoration: underline;
-}
-
-.footer-three {
-    word-spacing: 10px;
-}
-
-.footer-three a {
-    display: inline-block;
-    color: #8a8d91;
-    word-spacing: 1px;
-    font-size: 12px;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.footer-three a:hover {
-    text-decoration: underline;
-}
-
-.footer-four {
-    word-spacing: 10px;
-}
-
-.footer-four a {
-    display: inline-block;
-    color: #8a8d91;
-    word-spacing: 1px;
-    font-size: 12px;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.footer-four a:hover {
+#link:hover {
     text-decoration: underline;
 }
 
@@ -246,38 +212,3 @@ body {
     margin-top: 15px;
 }
 
-
-@media (max-width: 700px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    /*ELEMENTOS PAI*/
-    .container {
-        display:flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .header {
-        display: block;
-    }
-
-    .logo {
-        display:flex;
-        justify-content: center;
-        flex-direction: column;
-        height: 70px;
-        width: 330px;
-        margin: 0 50px auto;
-    }
-
-    .form {
-        display:flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0 50px auto;
-
-    }
-}
